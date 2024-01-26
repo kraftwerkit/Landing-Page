@@ -5,6 +5,8 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    flex: 1 1 auto;
 }
 
 .one {
@@ -33,6 +35,8 @@ ul {
     margin-left: auto;
 }
 
+/*Photo Section*/
+
 .two {
     display: flex;
     flex-direction: column;
@@ -41,36 +45,71 @@ ul {
     gap: 30px;
 }
 
+.random {
+    font-weight: bolder;
+    color: #1F2937;
+    font-size: 36px;
+}
+
 .images {
     display: flex;
     gap: 20px;
 }
 
+/* Quote */
+
 .three {
     display: flex;
     background-color: #E5E7EB;
-    align-items: center;
     justify-content: center;
-    padding: 30px;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right:40px;
+    padding-left: 40px;
 }
 
-.quote p {
-    min-width: 50px;
-    min-height: 50px;
+.quote {
+    color: #1F2937;
+    font-weight: light;
+    font-style: italic;
+    background-color: #E5E7EB;
+    font-size: 20px;
 }
+
+span {
+    font-weight:bold;
+    align-self: flex-end;
+}
+
+
+/*Call to Action*/
 
 .four {
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .container {
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding:20px;
-    gap: 20px;
-    background-color: #3882F6;
+    gap: 30px;
+    padding: 40px;
+    background-color:#3882F6;
+    color: white;
+    border-radius: 10px;;
+}
+
+button {
+    background-color:#3882F6;
+    border-radius: 6px;
+    border: 3px solid white;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: white;
+    
 }
