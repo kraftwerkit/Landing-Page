@@ -1,6 +1,6 @@
-* {
+/** {
     outline: 2px red solid;
-}
+}*/
 
 body {
     display: flex;
