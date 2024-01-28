@@ -1,6 +1,6 @@
-/** {
+* {
     outline: 2px red solid;
-}*/
+}
 
 body {
     display: flex;
@@ -130,7 +130,9 @@ span {
     padding: 40px;
     background-color:#3882F6;
     color: white;
-    border-radius: 10px;;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .container button {
